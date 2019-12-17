@@ -1,5 +1,5 @@
 ---
-title: 'الدليل الشامل لفهم الويب وآلية عمله'
+title: 'دليل مفصل لكيفية عمل المواقع الإلكترونية '
 date: 2019-11-26
 slug: 'web-developement/understand-web'
 template: 'post'
