@@ -1,4 +1,4 @@
-const React = require('react');
+/* const React = require('react');
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   if (process.env.NODE_ENV === `production`) {
@@ -22,4 +22,4 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       />
     ]);
   }
-};
+}; */
