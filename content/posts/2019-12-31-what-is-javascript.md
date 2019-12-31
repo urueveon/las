@@ -1,6 +1,6 @@
 ---
 title: 'ما هي لغة البرمجة جافا سكريبت (JavaScript) ؟'
-date: 2019-12-24
+date: 2019-12-31
 slug: 'what-is-javascript'
 template: 'post'
 categories:
