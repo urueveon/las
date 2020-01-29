@@ -65,6 +65,12 @@ pre code {
   background-color: #333;
   border: 0;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.15);
+
+  blockquote.warning & {
+    background-color: #a79f88;
+    color: #fff8e4;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+  }
 }
 
 // Keyboard input
@@ -118,6 +124,8 @@ code[class*='language-sass'] {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   margin-bottom: -2.2rem;
+  text-align: left;
+  font-family: arial;
 }
 
 @include small-breakpoint {
