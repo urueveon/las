@@ -240,7 +240,7 @@ export default App;
 
 الآن عند النقر على الزر "Start" نريد أن يتم توجيهنا إلى شاشة الإختبار الأولى.
 
-لتسهيل هذه المهمة سنستعين بمكتبة رائعة يوفرها مجتمع React Native لتمكيننا من التنقل من شاشة لأخرى وتمرير البيانات فيما بينها بيسر وسهولة. هذه المكتبة اسمها [react-navigation](https://reactnavigation.org/) ويمكنا مقارنتها بمكتبة **react-router** المعروفة بشكل واسع في بيئة الويب و React.js.
+لتسهيل هذه المهمة سنستعين بمكتبة رائعة يوفرها مجتمع [React Native](/tags/react-native/) لتمكيننا من التنقل من شاشة لأخرى وتمرير البيانات فيما بينها بيسر وسهولة. هذه المكتبة اسمها [react-navigation](https://reactnavigation.org/) ويمكنا مقارنتها بمكتبة **react-router** المعروفة بشكل واسع في بيئة الويب و [React.js](/web-development/javascript/react-javascript-library/).
 
 ## إضافة react-navigation
 
@@ -592,6 +592,8 @@ const AppNavigator = createStackNavigator(
 ```
 
 الآن أصبح عنوان الشاشة **Questions** عوض **QuestionsList**.
+
+<NewsletterForm />
 
 ## شاشة سؤال أربع صور كلمة واحدة
 
