@@ -47,7 +47,12 @@ export default function NewsletterForm() {
       {message && <blockquote className={result.result}>{message}</blockquote>}
       <div>
         <div className="newsletter-form">
-          <h4>القائمة البريدية</h4>
+          <h4>القائمة البريدية لتوتومينا</h4>
+          <p>
+            اشترك في قائمة توتومينا البريدية وتوصل بأحدث الدروس والمقالات
+            الحصرية.{' '}
+          </p>
+          <p>ننشر أيضا أحدث عروض العمل عن بعد في ميدان البرمجة وتطوير الويب.</p>
           <form onSubmit={handleSubmit(email, { listFields })}>
             <input
               type="email"
