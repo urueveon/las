@@ -945,16 +945,21 @@ blockquote {
 
 .footer {
   margin-top: 2.5rem;
-  display: flex;
+  padding: 1.5rem 0;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   color: $light-font-color;
+  // border-top: 1px solid #e1e7f4;
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
 
-  div {
+  .container {
     display: flex;
     align-items: center;
-    padding-bottom: 1.5rem;
+    justify-content: space-between;
+    div {
+      display: flex;
+    }
   }
 
   strong {
@@ -965,7 +970,9 @@ blockquote {
     font-weight: 400;
     color: darken($light, 30%);
     display: block;
-    margin-right: 1.5rem;
+    &:not(:last-child) {
+      margin-left: 1.5rem;
+    }
 
     &:hover {
       color: $primary-color;
@@ -982,7 +989,6 @@ blockquote {
 @include small-breakpoint {
   .footer {
     flex-direction: row;
-    height: 100px;
   }
 }
 
