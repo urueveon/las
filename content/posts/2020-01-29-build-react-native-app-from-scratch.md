@@ -1,5 +1,5 @@
 ---
-title: 'بناء تطبيق للموبايل من الصفر بواسطة React Native'
+title: 'بناء تطبيق موبايل من الصفر بواسطة React Native'
 date: 2020-01-29
 slug: 'build-react-native-app-from-scratch'
 template: 'post'
@@ -13,7 +13,7 @@ thumbnail: '../thumbnails/mobile.png'
 
 تكلمنا سابقا في عدة مقالات عن إطار العمل **React Native** وتحدثنا بشكل نظري عن إمكانياته وكونه واحد من الحلول الرئيسية لكل من يرغب في بناء تطبيقات الهواتف الذكية باستخدام [جافا سكريبت](/what-is-javascript/).
 
-تدوينة اليوم ستكون عملية أكثر بحيث سنتعلم معا كيفية إنشاء تطبيق موبايل من الصفر باستخدام [رياكت ناتيف](/web-development/javascript/مقدمة-عن-react-native/). والتطبيق الذي وقع عليه اختياري هو تطبيق **أربع صور كلمة واحدة** المعروف.
+تدوينة اليوم ستكون عملية أكثر بحيث سنتعلم معا كيفية **بناء تطبيق محمول** من الصفر باستخدام [رياكت ناتيف](/web-development/javascript/مقدمة-عن-react-native/). والتطبيق الذي وقع عليه اختياري هو تطبيق **أربع صور كلمة واحدة** المعروف.
 
 ![تطبيق أربع صور كلمة واحدة](../images/4pics_1word.png)
 
@@ -36,7 +36,7 @@ thumbnail: '../thumbnails/mobile.png'
 
 </blockquote>
 
-## إنشاء المشروع
+## إنشاء مشروع React Native
 
 سنبدأ مباشرة بإنشاء المشروع من خلال نافذة الأوامر السطرية:
 
@@ -1353,7 +1353,7 @@ React.useEffect(() => {
 
 للقيام بهذه المهمة يجب أن نضيف حالة جديدة للمكون `QuestionsListScreen` يكون اسمها `lastAnsweredIndex` وتحتوي على مؤشر آخر جواب الذي نقرأه من `AsyncStorage` بمجرد الدخول لتلك الشاشة.
 
-```js{5,23,25-42,50,53}
+```js{5,21,23-37,43,48}
 import React from 'react';
 
 import { View, StyleSheet, FlatList } from 'react-native';
