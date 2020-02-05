@@ -116,7 +116,7 @@ export default class PostTemplate extends Component {
         <div className="container">
           <NewsletterForm />
         </div>
-        <UserInfo config={config} />
+        {/* <UserInfo config={config} /> */}
       </Layout>
     );
   }
