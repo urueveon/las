@@ -5,7 +5,6 @@ slug: 'web-development/javascript/components-angular-framework'
 template: 'post'
 categories:
   - جافاسكريبت
-  - Popular
 tags:
   - angular
   - javascript

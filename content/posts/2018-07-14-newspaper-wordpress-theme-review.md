@@ -6,7 +6,6 @@ template: 'post'
 categories:
   - تسويق
   - مقالات
-  - Popular
 tags:
   - Newspaper Theme
   - WordPress

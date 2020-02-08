@@ -5,6 +5,7 @@ slug: 'build-react-native-app-from-scratch'
 template: 'post'
 categories:
   - جافا سكريبت
+  - Popular
 tags:
   - موبايل
   - React Native

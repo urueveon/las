@@ -5,6 +5,7 @@ slug: 'web-development-2020'
 template: 'post'
 categories:
   - برمجة
+  - Popular
 tags:
   - تطوير الويب
   - أدوات
