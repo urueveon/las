@@ -13,7 +13,7 @@ export default function ServicesPage() {
   return (
     <Layout>
       <SEO />
-      <Helmet title={`القائمة البريدية – ${config.siteTitle}`} />
+      <Helmet title={`خدماتنا – ${config.siteTitle}`} />
       <div className="container page-services">
         <h1>خدماتنا</h1>
         <div className="services">
