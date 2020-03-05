@@ -9,7 +9,7 @@ tags:
   - React.js
   - Laravel
   - PWA
-thumbnail: '../thumbnails/firebase.png'
+thumbnail: '../thumbnails/writing.png'
 ---
 
 كان التحاقي للعمل في شركة حسوب واحدا من الأمور الجميلة التي حدثت معي كمطور ويب في عام 2019.
