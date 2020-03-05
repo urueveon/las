@@ -1,6 +1,6 @@
 ---
 title: 'تجربتي مع حسوب وبناء تطبيق الويب "أنا"'
-date: 2020-02-21
+date: 2020-03-05
 slug: 'hsoub-experience'
 template: 'post'
 categories:
