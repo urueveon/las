@@ -1,6 +1,6 @@
 ---
-title: 'ما المقصود ب Hoisting في جافا سكريبت ؟'
-date: 2020-03-08
+title: 'شرح مفهوم ال Hoisting في جافا سكريبت'
+date: 2020-03-18
 slug: 'javascript-hoisting'
 template: 'post'
 categories:
