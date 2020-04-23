@@ -1,6 +1,6 @@
 ---
 title: 'مقدمة إلى Web Components'
-date: 2020-04-06
+date: 2020-04-23
 slug: 'web-components'
 template: 'post'
 categories:
