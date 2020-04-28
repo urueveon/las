@@ -9,7 +9,8 @@ const aissa = {
   social: {
     facebook: '',
     twitter: '',
-    github: 'https://github.com/aissa-bouguern'
+    github: 'https://github.com/aissa-bouguern',
+    linkedin: 'https://linkedin.com/in/bouguern'
   }
 };
 export default { aissa };
