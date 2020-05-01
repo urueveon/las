@@ -22,32 +22,21 @@ export default class Index extends Component {
 
     return (
       <Layout>
-        <Helmet title={`${config.siteTitle} – تقنيات البرمجة وتطوير الويب`} />
+        <Helmet title={`${config.siteTitle}`} />
         <SEO />
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>توتومينا</h1>
+              <h1>اور ويب</h1>
               <p>
-                الويب يعني ثقافة المشاركة، لذلك نعتقد في مدونة توتومينا بأن
-                المعلومة مهما كانت بسيطة لا يجب أن تبقى حكرا على أشخاص معينين بل
-                يجب مشاركتها مع الآخرين وبذلك نرتقي بأنفسنا وبمحتوى لغتنا
-                العربية العزيزة على الإنترنت.
-              </p>
+محتوى هادف وترفيهي يتكون من تدوينات وشروحات برامج بالاضافة الى ادوات مصغرة ومتعددة
+.              </p>
               <div className="social-buttons">
+               
                 <div>
                   <a
-                    href="https://www.twitter.com/tutomena"
-                    title="حساب توتومينا على تويتر"
-                    target="_blank"
-                  >
-                    <img src={twitterIcon} alt="حساب توتومينا على تويتر" />
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="https://www.facebook.com/tutomena"
-                    title="حساب توتومينا على فيسبوك"
+                    href="https://www.facebook.com/aurweb"
+                    title="حساب اور ويب على فيسبوك"
                     target="_blank"
                   >
                     <img src={facebookIcon} alt="حساب توتومينا على فيسبوك" />
@@ -73,9 +62,7 @@ export default class Index extends Component {
               <div>
                 <h3>توصل بالجديد دائما</h3>
                 <p>
-                  اشترك في قائمة توتومينا البريدية للتوصل بآخر الدروس والمقالات
-                  الحصرية، وكذلك عروض العمل من شركائنا الذين يثقون في جمهور
-                  مدونة توتومينا.
+                  اشترك في قائمة اور ويب البريدية.
                 </p>
                 <a className="button" href="/newsletter">
                   أريد الإشتراك
