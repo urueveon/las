@@ -1,30 +1,30 @@
 const config = {
-  siteTitle: 'اور ويب ',
-  siteTitleShort: 'اور ويب ',
-  siteTitleAlt: 'اور ويب ',
+  siteTitle: 'اور ويب',
+  siteTitleShort: 'اور ويب',
+  siteTitleAlt: 'اور ويب',
   siteLogo: '/logos/logo-1024.png',
   siteUrl: 'https://www.ur-web.com',
-  repo: 'https://github.com/urueveon/las',
+ 
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
     'محتوى هادف وترفيهي يتكون من تدوينات وشروحات برامج بالاضافة الى ادوات مصغرة ومتعددة.',
   siteRss: '/rss.xml',
-  googleAnalyticsID: 'UA-60278591-1',
-  postDefaultCategoryID: 'تدوينات',
-  userName: 'omar',
+  googleAnalyticsID: 'UA-163125090-1',
+  postDefaultCategoryID: 'اور ويب',
+  userName: 'اور ويب',
   userEmail: 'info@ur-web.com',
-  userTwitter: 'omar_m7a',
-  gatsby_disqus_name: 'tutomena',
+  userTwitter: 'omar.m7a',
+  gatsby_disqus_name: 'disqus_hjOB22hyru',
   menuLinks: [
    
     {
       name: 'المنشورات',
       link: '/blog/'
     },
-     {
-      name: ' ادوات المهام',
+ {
+      name: 'ادوات المهام ',
       link: '/tools/'
     },
     {
