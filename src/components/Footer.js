@@ -18,7 +18,7 @@ export default class Footer extends Component {
           </a> */}
             <Link to="/newsletter">النشرة البريدية</Link>
             <Link to="/privacy-policy">سياسة الخصوصية</Link>
-            <Link to="/tools">أدوات المهام</Link>
+            <Link to="/contact"> اتصل بنا</Link>
             <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
               RSS
             </a>
