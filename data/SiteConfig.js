@@ -1,30 +1,31 @@
 const config = {
-  siteTitle: 'مدونة توتومينا',
-  siteTitleShort: 'مدونة توتومينا',
-  siteTitleAlt: 'مدونة توتومينا',
+  siteTitle: 'اور ويب ',
+  siteTitleShort: 'اور ويب ',
+  siteTitleAlt: 'اور ويب ',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://www.tutomena.com',
-  repo: 'https://github.com/aissa-bouguern/tutomena.com',
+  siteUrl: 'https://www.ur-web.com',
+  repo: 'https://github.com/urueveon/las',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'في مدونة توتومينا ننشر كل ما له علاقة بأحدث تقنيات تطوير الويب، ونولي اهتماما خاصا للغة البرمجة جافاسكريبت. مقالاتنا تتسم بأسلوب سلس وسهل حتى على المبتدئين.',
+    'محتوى هادف وترفيهي يتكون من تدوينات وشروحات برامج بالاضافة الى ادوات مصغرة ومتعددة.',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-60278591-1',
-  postDefaultCategoryID: 'تقنية',
-  userName: 'عيسى',
-  userEmail: 'contact@tutomena.com',
-  userTwitter: 'tutomena',
+  postDefaultCategoryID: 'تدوينات',
+  userName: 'omar',
+  userEmail: 'info@ur-web.com',
+  userTwitter: 'omar_m7a',
   gatsby_disqus_name: 'tutomena',
   menuLinks: [
-    {
-      name: 'عن توتومينا ؟',
-      link: '/about-us/'
-    },
+   
     {
       name: 'المنشورات',
       link: '/blog/'
+    },
+     {
+      name: ' ادوات المهام',
+      link: '/tools/'
     },
     {
       name: 'اتصل بنا',
