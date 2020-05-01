@@ -10,14 +10,12 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={aissa} alt="عيسى محمد علي" />
+              <img className="avatar" src={aissa} alt="اور ويب  " />
             </div>
             <div>
-              <h3 style={{ marginBottom: '1.2rem' }}>عيسى محمد علي</h3>
+              <h3 style={{ marginBottom: '1.2rem' }}>اور ويب  </h3>
               <p>
-                بدأت الإحتراف في مجال برمجيات الويب منذ عام 2010، وأسعى لنقل
-                خبراتي المتواضعة لإخواني العرب من المحيط إلى الخليج، راجيا من
-                الله أن يجعل عملي هذا في ميزان حسناتي.
+محتوى هادف وترفيهي يتكون من تدوينات وشروحات برامج بالاضافة الى ادوات مصغرة ومتعددة
               </p>
 
               {/* <div className="flex">
