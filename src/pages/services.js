@@ -13,7 +13,7 @@ export default function ServicesPage() {
   return (
     <Layout>
       <SEO />
-      <Helmet title={`خدماتنا – ${config.siteTitle}`} />
+      <Helmet title={`استخراج نتيجة الشهادة السودانية 2020 -sscr2020.sd – ${config.siteTitle}`} />
       <div className="container page-services">
         <h1>خدماتنا</h1>
         <div className="services">
