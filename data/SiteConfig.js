@@ -1,35 +1,35 @@
 const config = {
-  siteTitle: 'اور ويب',
-  siteTitleShort: 'اور ويب',
-  siteTitleAlt: 'اور ويب',
+  siteTitle: 'نتائج السودان ',
+  siteTitleShort: 'نتائج السودان',
+  siteTitleAlt: 'نتائج السودان',
   siteLogo: '/logos/logo-1024.png',
-  siteUrl: 'https://www.ur-web.com',
+  siteUrl: 'https://sudansscr.com',
  
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'محتوى هادف وترفيهي يتكون من تدوينات وشروحات برامج بالاضافة الى ادوات مصغرة ومتعددة.',
+    'موقع مختص في تقديم وعرض نتائج الشهادة السودانية وشهادة الاساس ويساعد في استخراج الشهادة بصورة مجانية من وزارة التربية والتعليم.',
   siteRss: '/rss.xml',
   googleAnalyticsID: 'UA-163125090-1',
-  postDefaultCategoryID: 'اور ويب',
-  userName: 'اور ويب',
-  userEmail: 'info@ur-web.com',
-  userTwitter: 'omar.m7a',
+  postDefaultCategoryID: 'نتائج السودان ',
+  userName: 'نتائج السودان ',
+  userEmail: 'info@sudansscr.com',
+  userTwitter: 'omar_m7a',
   gatsby_disqus_name: 'disqus_hjOB22hyru',
   menuLinks: [
    
     {
-      name: 'المنشورات',
-      link: '/blog/'
+      name: 'الشهادة السودانية',
+      link: '/categories/الشهادة-السودانية/'
     },
  {
-      name: 'ادوات المهام ',
-      link: '/tools/'
+      name: 'شهادة الاساس  ',
+      link: '/categories/شهادة-الاساس/'
     },
     {
-      name: 'اتصل بنا',
-      link: '/contact/'
+      name: ' استخراج نتيجة الشهادة السودانية',
+      link: 'https://results.sudansscr.com/'
     }
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
