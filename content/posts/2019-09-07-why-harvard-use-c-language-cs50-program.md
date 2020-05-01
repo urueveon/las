@@ -27,4 +27,4 @@ thumbnail: '../thumbnails/computer.png'
 
 ---
 
-المصدر: [Why does CS50 at Harvard use C as its primary language?](https://www.quora.com/Why-does-CS50-at-Harvard-use-C-as-its-primary-language)
+المصدر: [وكي بيديا](https://www.quora.com/)
